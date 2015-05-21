@@ -60,14 +60,27 @@ list_sorted = sorted(list(set(list_input)))
 print list_sorted[len(list_sorted)-2]
 
 '''
-from operator import itemgetter, attrgetter, methodcaller
 
-list = []
+''' nested list
+l = []
 for n in range(0,input()):
 	name = raw_input()
 	mark = float(raw_input())
-	list += [name,mark]
+	l.append([name,mark])
 
-print list
+if len(l)> 1:
+    value = [s[1] for s in l]
+    value_set = set(value)
+    value_set.remove(min(value))
 
-print sorted(list, key=itemgetter(1,0))
+    snd_lowest_value = min(value_set)
+    print snd_lowest_value
+
+    name_list = [s[0] for s in l if s[1] == snd_lowest_value]
+
+    for name in sorted(name_list):
+        print name
+else:
+    print None
+
+'''
