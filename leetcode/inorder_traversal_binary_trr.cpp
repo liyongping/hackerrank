@@ -66,24 +66,22 @@ public:
 
         stack<TreeNode*> loopStack;
         TreeNode* curr = root;
-        while(curr){
+        while(curr || !loopStack.empty()){
 
-            result.push_back(curr->val);
+            // go through left firstly, and then root
+            while(curr != NULL){
+                loopStack.push(curr);
+                curr = curr->left;
+            }
 
-            if(curr->right)
-                loopStack.push(curr->right);
-
-            loopStack.push(curr);
-
-            if(curr->left)
-                loopStack.push(curr->left);
-            
-            if(loopStack.empty()){
-                curr = NULL;
-                //break;
-            }else{
+            if(!loopStack.empty()){
                 curr = loopStack.top();
                 loopStack.pop();
+                // go through current root node.
+                result.push_back(curr->val);
+
+                // last one is right node.
+                curr = curr->right;
             }
         }
 
@@ -113,13 +111,13 @@ int main(int argc, char const *argv[])
         cout<<result[i] << " ";
     }
     cout<<endl;
-/*
-    vector<int> result2 = s.preorderTraversal(proot);
+
+    vector<int> result2 = s.inorderTraversal(proot);
     for (int i = 0; i < result2.size(); ++i)
     {
         cout<<result2[i] << " ";
     }
     cout<<endl;
-*/
+
 	return 0;
 }
