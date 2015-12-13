@@ -47,7 +47,7 @@ public:
             return lowestCommonAncestor(root->right, p, q);
 
         //if p < root < q, return root
-        
+        //if p or q == root, return root
         return root;
         
     }
