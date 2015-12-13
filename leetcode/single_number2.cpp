@@ -13,7 +13,7 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 class Solution {
 public:
     /*
-    考虑全部用二进制表示，如果我们把 第 ith  个位置上所有数字的和对3取余，
+    考虑全部用二进制表示，如果我们把 第 ith 个位置上所有数字的和对3取余，
     那么只会有两个结果 0 或 1 (根据题意，3个0或3个1相加余数都为0). 
     因此取余的结果就是那个 “Single Number”.
      */
