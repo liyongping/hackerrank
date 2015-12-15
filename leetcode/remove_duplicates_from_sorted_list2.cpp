@@ -21,27 +21,47 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
+void printList(ListNode *head);
+
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
-        if(head == NULL)
-            return NULL;
+        ListNode* newHead = new ListNode(-1);
+        newHead->next = head;
 
-        ListNode *curr = head;
-        while(curr != NULL && curr->next != NULL){
-            if(curr->val == curr->next->val){
-                ListNode *newNext = curr->next->next;
-                delete curr->next; // remember to release the momery
-                curr->next = curr->next->next;
+        ListNode* pre = newHead;
+        ListNode* cur = newHead->next;
+
+        while(pre && cur){
+            bool hadDuiplicate = false;
+            while(cur != NULL && cur->next != NULL){
+                if(cur->val == cur->next->val){
+                    hadDuiplicate = true;
+                    //remove cur->next
+                    cur->next = cur->next->next;
+                    printList(newHead);
+                }else{
+                    break;
+                }
+
             }
-            else // note: this case: 1 1 1, to 1
-            {
-                curr = curr->next;
+            if(hadDuiplicate){
+                // remove cur
+                pre->next = cur->next;
+                cur = cur->next;
+                printList(newHead);
+            }else{
+                ListNode* tmp = cur;
+                cur = tmp->next;
+                pre = tmp;
+                
             }
         }
 
-        return head;
+        return newHead->next;
     }
+    
+    //http://bangbingsyb.blogspot.jp/2014/11/leetcode-remove-duplicates-from-sorted_19.html
 };
 
 void printList(ListNode *head){
@@ -63,14 +83,13 @@ int main(int argc, char const *argv[])
     ListNode *head = new ListNode(0); 
 
     ListNode *l1 = new ListNode(1); head->next = l1;
-    ListNode *l2 = new ListNode(2); l1->next = l2;
+    ListNode *l2 = new ListNode(1); l1->next = l2;
     ListNode *l3 = new ListNode(3); l2->next = l3;
     ListNode *l4 = new ListNode(3); l3->next = l4;
     ListNode *l5 = new ListNode(4); l4->next = l5;
     ListNode *l6 = new ListNode(4); l5->next = l6;
     ListNode *l7 = new ListNode(5); l6->next = l7;
     ListNode *l83 = new ListNode(6); l7->next = NULL;
-
     printList(head);
     printList(s.deleteDuplicates(head));
 
