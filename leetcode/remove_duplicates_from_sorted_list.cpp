@@ -30,6 +30,7 @@ public:
         ListNode *curr = head;
         while(curr != NULL && curr->next != NULL){
             if(curr->val == curr->next->val){
+                // find duplicate, delete next node
                 ListNode *newNext = curr->next->next;
                 delete curr->next; // remember to release the momery
                 curr->next = curr->next->next;
