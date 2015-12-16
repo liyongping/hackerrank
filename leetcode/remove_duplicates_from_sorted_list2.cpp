@@ -80,7 +80,7 @@ int main(int argc, char const *argv[])
 {
     Solution s;
 
-    ListNode *head = new ListNode(0); 
+    ListNode *head = new ListNode(1); 
 
     ListNode *l1 = new ListNode(1); head->next = l1;
     ListNode *l2 = new ListNode(1); l1->next = l2;
