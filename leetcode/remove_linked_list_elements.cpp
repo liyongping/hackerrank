@@ -32,14 +32,15 @@ public:
 
         ListNode*curr = dummy;
 
-        while(curr->next){
-            if(curr->next->val == val){
+        while(curr){
+            if(curr->next && curr->next->val == val){ 
+                // remove next, and keep curr not to move, need to check next->next
                 ListNode* tmp = curr->next;
                 curr->next = curr->next->next;
                 delete tmp;
+            }else{// curr makes a step
+                curr = curr->next;
             }
-
-            curr = curr->next;
         }
 
         curr = dummy->next;
@@ -68,7 +69,7 @@ int main(int argc, char const *argv[])
     ListNode *head = new ListNode(1); 
     ListNode *pcurr = head;
 
-    for(int i=1; i< 2; i++){
+    for(int i=1; i< 10; i++){
         ListNode *node = new ListNode(i);
         pcurr->next = node;
         pcurr = pcurr->next;
