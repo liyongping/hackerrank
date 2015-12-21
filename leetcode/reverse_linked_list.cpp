@@ -25,21 +25,44 @@ struct ListNode {
 
 class Solution {
 public:
+    // iteractively
     ListNode* reverseList(ListNode* head) {
         if(head ==NULL){
             return NULL;
         }
-        ListNode*pre = NULL;
-        ListNode*curr = head;
-        ListNode*tmp = NULL;
-        while(curr->next !=NULL){
-            tmp = curr->next;// tmp =2
+
+        ListNode *pre= NULL, *curr=head;
+        ListNode * saveNext = NULL;
+        while(curr){
+            saveNext = curr->next;
             curr->next = pre;
             pre = curr;
-            curr = tmp;
+            curr = saveNext;
         }
-        curr->next = pre;
-        return curr;
+
+        return pre;
+    }
+
+    // recursion
+    ListNode* reverseList2(ListNode* head) {
+        if(head ==NULL){
+            return NULL;
+        }
+
+        if(head->next == NULL)
+            return head;
+
+        ListNode * curr = head->next;
+
+        //here will return new head node.
+        ListNode * newHead = reverseList2(curr);
+
+        // reverse next pointer
+        curr->next = head;
+
+        head->next = NULL;
+        
+        return newHead;
     }
 };
 
@@ -70,7 +93,10 @@ int main(int argc, char const *argv[])
 
     printList(head);
 
-    printList(s.reverseList(head));
+    ListNode* newHead = s.reverseList(head);
+    printList(newHead);
+
+    printList(s.reverseList2(newHead));
 
     return 0;
 }
