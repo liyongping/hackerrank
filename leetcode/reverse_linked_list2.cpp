@@ -32,17 +32,20 @@ public:
         if(head == NULL)
             return head;
 
-        ListNode *reverseHead = head;
+        ListNode *dummy = new ListNode(-1);
+        dummy->next = head;
+
+        ListNode *reverseHead = dummy;
         ListNode *firstListTail = NULL;
-        int i = m-1;
+        int i = m;
 
         while(i-- > 0){
             firstListTail =reverseHead;
             reverseHead = reverseHead->next;
         }
 
-        ListNode *curr = reverseHead, *tmp = NULL, *pre = firstListTail;
-        i = n-m;
+        ListNode *curr = reverseHead, *tmp = NULL, *pre = NULL;
+        i = n-m+1;
         while(i-- > 0){
             tmp = curr->next;
             curr->next = pre;
@@ -51,11 +54,12 @@ public:
         }
 
         reverseHead->next = curr;
-        if(firstListTail)
-            firstListTail->next = pre;
+        firstListTail->next = pre;
 
-        return head;
+        tmp = dummy->next;
+        delete dummy;
 
+        return tmp;
     }
 };
 
@@ -86,7 +90,7 @@ int main(int argc, char const *argv[])
 
     printList(head);
     //printList(s.reverseBetween(head,1,1));
-    printList(s.reverseBetween(head,2,7));
+    printList(s.reverseBetween(head,1,9));
 
     return 0;
 }
