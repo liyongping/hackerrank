@@ -49,6 +49,7 @@ public:
         return dummy.next;
     }
 
+    // will implement a better solution 24ms: like https://leetcode.com/discuss/37574/explained-c-solution-24ms
     ListNode* insertionSortList2(ListNode* head) {
         ListNode dummy(INT_MIN);
         dummy.next = head;
