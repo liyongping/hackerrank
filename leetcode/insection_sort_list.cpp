@@ -30,7 +30,7 @@ public:
         //dummy->next = head;
 
         ListNode *icurr = head, *jcurr = NULL, *tmp = NULL,
-                    *insertNode = NULL;
+                    *insertNode = &dummy;
         while(icurr){
             // find insert position, we will insert one node after it
             jcurr = &dummy;
@@ -49,8 +49,30 @@ public:
         return dummy.next;
     }
 
-    ListNode *insertionSortList2(ListNode *head){
+    ListNode* insertionSortList2(ListNode* head) {
+        ListNode dummy(INT_MIN);
+        dummy.next = head;
 
+        ListNode *icurr = head, *jcurr = NULL, *tmp = NULL,
+                    *insertNode = &dummy;
+        while(icurr && icurr->next){
+            // find insert position, we will insert one node after it
+            jcurr = &dummy;
+            while(jcurr && jcurr->val < icurr->next->val){
+                insertNode = jcurr;
+                jcurr = jcurr->next;
+            }
+            if(insertNode == icurr){ // don't find insert position, don't need to move it
+                icurr = icurr->next;
+            }else{
+                tmp = icurr->next->next;
+                icurr->next->next = insertNode->next;
+                insertNode->next = icurr->next;
+                icurr->next = tmp;
+            }
+        }
+
+        return dummy.next;
     }
 };
 
@@ -70,16 +92,16 @@ int main(int argc, char const *argv[])
 {
     Solution s;
 
-    ListNode *head = new ListNode(11); 
+    ListNode *head = new ListNode(-2147483647); 
     ListNode *pcurr = head;
 
-    for(int i=10; i>0; i--){
-        ListNode *node = new ListNode(i);
+    for(int i=1; i>0; i--){
+        ListNode *node = new ListNode(-2147483648);
         pcurr->next = node;
         pcurr = pcurr->next;
     }
 
-
+    cout<< INT_MIN << endl;
     printList(head);
     //printList(s.reverseBetween(head,1,1));
     printList(s.insertionSortList(head));
