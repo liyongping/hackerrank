@@ -50,7 +50,7 @@ public:
         dummy.next = head;
         ListNode *fast = &dummy, *slow = &dummy;
 
-        // find mid node
+        // find mid node by slow and fast pointer
         while(fast && fast->next){
             fast = fast->next->next;
             slow = slow->next;
