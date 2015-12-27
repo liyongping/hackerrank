@@ -32,39 +32,28 @@ void printList(ListNode *head){
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        if(l1 == NULL)
-            return l2;
-        if(l2 == NULL)
-            return l1;
 
-        ListNode* newhead = new ListNode(-1);
-        // p1 points to l1 list's current node
-        // p2 points to l2 list's current node
+        ListNode newhead(-1);
+        // l1 points to l1 list's current node
+        // l2 points to l2 list's current node
         // pcurr points to new list's current node
-        ListNode* p1 = l1, *p2 = l2, *pcurr = newhead;
-        while(p1 && p2){
-            if(p1->val < p2->val){
-                pcurr->next = p1;
-                p1 = p1->next;
+        ListNode *pcurr = &newhead;
+        while(l1 && l2){
+            if(l1->val < l2->val){
+                pcurr->next = l1;
+                l1 = l1->next;
             }else{
-                pcurr->next = p2;
-                p2 = p2->next;
+                pcurr->next = l2;
+                l2 = l2->next;
             }
             pcurr = pcurr->next;
         }
 
         // if l1 goes to end node, just append l2 to new list.
-        if (p1 == NULL){
-            pcurr->next = p2;
-        }
         // if l2 goes to end node, just append l1 to new list.
-        if (p2 == NULL){
-            pcurr->next = p1;
-        }
-        pcurr = newhead->next;
-        delete newhead;
+        pcurr->next = l1 == NULL ? l2 : l1;
 
-        return pcurr;
+        return newhead.next;
     }
 };
 
@@ -94,6 +83,8 @@ int main(int argc, char const *argv[])
     printList(head2);
 
     printList(s.mergeTwoLists(head1,head2));
+    cout<<head1->val<< endl;
+    cout<<head2->val<<endl;
 
     return 0;
 }
