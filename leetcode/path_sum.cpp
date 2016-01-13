@@ -10,13 +10,13 @@ using namespace std;
 For example:
 Given the below binary tree and sum = 22,
 
-              5
-             / \
-            4   8
-           /   / \
-          11  13  4
-         /  \      \
-        7    2      1
+      5
+     / \
+    4   8
+   /   / \
+  11  13  4
+ /  \      \
+7    2      1
 
 return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
     proot->right->left = new TreeNode(13);
     proot->right->right = new TreeNode(4);
 
-	Solution s;
+    Solution s;
 
     
     cout<<s.hasPathSum(proot,100) << endl;
