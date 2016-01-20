@@ -40,6 +40,7 @@ public:
     void findRightNode(TreeNode* root, int level, vector<int> &rightValue){
         if(root == NULL)
             return;
+        
 
         // every level just add a node.
         if(rightValue.size() == level){
