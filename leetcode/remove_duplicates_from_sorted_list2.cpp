@@ -46,7 +46,7 @@ public:
 
             }
             if(hadDuiplicate){
-                // remove cur
+                // remove the last duplicate node
                 pre->next = cur->next;
                 cur = cur->next;
                 printList(newHead);
