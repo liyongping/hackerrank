@@ -1,0 +1,1848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"len",
+				"length	(reverse_string.cpp)"
+			],
+			[
+				"long",
+				"longestCommonPrefix"
+			],
+			[
+				"coun",
+				"countAndSay"
+			],
+			[
+				"le",
+				"lengthOfLastWord2"
+			],
+			[
+				"spa",
+				"spacePlace"
+			],
+			[
+				"solu",
+				"Solution"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"remo",
+				"removeElement"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"rev",
+				"reverseVowels"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"da",
+				"data_list"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"fee",
+				"fee_str"
+			],
+			[
+				"proj",
+				"project_id"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"format",
+				"format_property_fee"
+			],
+			[
+				"ex",
+				"extract〔function〕"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"el",
+				"elif〔keyword〕"
+			],
+			[
+				"e",
+				"extract〔function〕"
+			],
+			[
+				"case",
+				"caseName"
+			],
+			[
+				"sum",
+				"sum"
+			],
+			[
+				"curr",
+				"currsum"
+			],
+			[
+				"lev",
+				"levels"
+			],
+			[
+				"lve",
+				"level"
+			],
+			[
+				"lv",
+				"levelRs"
+			],
+			[
+				"leve",
+				"levelRs"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"cur",
+				"curr"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"nu",
+				"NULL"
+			],
+			[
+				"head",
+				"headB"
+			],
+			[
+				"tai",
+				"tailA"
+			],
+			[
+				"tail",
+				"tailB"
+			],
+			[
+				"hea",
+				"head2"
+			],
+			[
+				"sw",
+				"swapPairs"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"loo",
+				"loopStack"
+			],
+			[
+				"w",
+				"write〔function〕"
+			],
+			[
+				"num",
+				"numRows"
+			],
+			[
+				"new",
+				"new_file_object〔variable〕"
+			],
+			[
+				"mat",
+				"matrix"
+			],
+			[
+				"file_o",
+				"file_object"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/workspace/python/test2.py",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace/python/check_tick.py",
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace/python/project_euler.py",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/valid_Palindrome.cpp",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/add_binary.cpp",
+			"settings":
+			{
+				"buffer_size": 842,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/longest_common_prefix.cpp",
+			"settings":
+			{
+				"buffer_size": 1630,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/count_and_say.cpp",
+			"settings":
+			{
+				"buffer_size": 1361,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/implement_strstr.cpp",
+			"settings":
+			{
+				"buffer_size": 1272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/reverse_string.cpp",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/remove_duplicates_from_sorted_array2.cpp",
+			"settings":
+			{
+				"buffer_size": 2001,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/length_of_last_word.cpp",
+			"settings":
+			{
+				"buffer_size": 1177,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/remove_element.cpp",
+			"settings":
+			{
+				"buffer_size": 1652,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/reverse_vowels_of_a_string.cpp",
+			"settings":
+			{
+				"buffer_size": 875,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/remove_invalid_parentheses.cpp",
+			"settings":
+			{
+				"buffer_size": 780,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/valid_parentheses.cpp",
+			"settings":
+			{
+				"buffer_size": 1218,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/generate_parentheses.cpp",
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cpp.tpl.cpp",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/remove_duplicates_from_sorted_list2.cpp",
+			"settings":
+			{
+				"buffer_size": 2427,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pcep",
+				"Package Control: Enable Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pcdp",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 260.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/1.html",
+		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_arraycpp",
+		"/D/workspace/hackerrank/leetcode/add_binary.cpp",
+		"/D/workspace/hackerrank/leetcode/longest_common_prefix.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_element.cpp",
+		"/D/workspace/hackerrank/leetcode/find_duplicate_number.cpp",
+		"/D/workspace/hackerrank/leetcode/reverse_vowels_of_a_string.cpp",
+		"/D/workspace/hackerrank/leetcode/valid_parentheses.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_invalid_parentheses.cpp",
+		"/D/workspace/hackerrank/leetcode/generate_parentheses.cpp",
+		"/D/workspace/hackerrank/leetcode/reverse_string.cpp",
+		"/D/workspace/hackerrank/leetcode/merge_two_sort_lists.cpp",
+		"/D/workspace/python/test.py",
+		"/D/workspace/python/dot_find_cycles.py",
+		"/D/workspace/hackerrank/remove_element.cpp",
+		"/D/workspace/hackerrank/leetcode/find_duplicate_number.py",
+		"/D/workspace/hackerrank/cpp.tpl.cpp",
+		"/D/workspace/cpp/fork.c",
+		"/D/Program Files/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Program Files/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/workspace/python/fangxun/fangxun/jsonpipe.py",
+		"/D/workspace/python/fangxun/fangxun/proxy.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/spiders/dmoz_spider2.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/settings.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/proxy.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/items.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/pipelines.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/spiders/dmoz_spider.py",
+		"/D/workspace/python/celery/tasks.py",
+		"/D/projects/auto/rtworker.py",
+		"/D/projects/auto/run_rt.py",
+		"/D/workspace/python/scrapy_first/scrapy_first/__init__.py",
+		"/D/workspace/hackerrank/leetcode/path_sum2.cpp",
+		"/D/bugs/20616790/0602/read_records.py",
+		"/D/workspace/hackerrank/leetcode/copy_list_with_random_pointer.cpp",
+		"/D/workspace/hackerrank/leetcode/same_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/symmetric_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/path_sum.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_level_order_traversal2.cpp",
+		"/D/workspace/hackerrank/leetcode/insection_sort_list.cpp",
+		"/D/workspace/hackerrank/leetcode/single_number.cpp",
+		"/D/workspace/hackerrank/leetcode/single_number3.cpp",
+		"/D/workspace/hackerrank/leetcode/single_number2.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_list.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_list2.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_paths.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_level_order_traversal.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_patchs.cpp",
+		"/D/workspace/hackerrank/leetcode/inorder_traversal_binary_trr.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_nth_node_from_end_of_list.cpp",
+		"/D/workspace/hackerrank/leetcode/swap_nodes_in_pairs.cpp",
+		"/D/workspace/hackerrank/leetcode/excel_sheet_columns_title_10to26.cpp",
+		"/D/workspace/hackerrank/leetcode/linked_list_cycle.cpp",
+		"/D/workspace/hackerrank/leetcode/intersection_of_two_linked_lists.cpp",
+		"/D/workspace/hackerrank/leetcode/preorder_traversal_binary_trr.cpp",
+		"/D/workspace/python/check_tick.py",
+		"/E/tmp/sdk-python-23282520/taobao-sdk-PYTHON-auto_1447355351010-20151210/test.py",
+		"/D/workspace/cpp/test_exception.cpp",
+		"/D/workspace/hackerrank/leetcode/palindrome_linked_list.cpp",
+		"/D/workspace/hackerrank/leetcode/reverse_linked_list.cpp",
+		"/D/workspace/hackerrank/leetcode/postorder_traversal_binary_trr.cpp",
+		"/C/Python/Python27/Lib/urllib.py",
+		"/E/tmp/sdk-python-23282520/taobao-sdk-PYTHON-auto_1447355351010-20151210/top/api/base.py",
+		"/C/Python/Python27/lib/site-packages/httplib2/__init__.py",
+		"/C/Python/Python27/Lib/httplib.py",
+		"/E/tmp/sdk-python-23282520/taobao-sdk-PYTHON-auto_1447355351010-20151210/top/api/rest/AlibabaAliqinFcSmsNumSendRequest.py",
+		"/D/workspace/python/test_sample.py",
+		"/D/bugs2/21856533/codes/mslflt.ppc",
+		"/D/bugs2/21856533/codes/mslsra.ppc",
+		"/D/bugs2/21856533/codes/mslflp.ppc",
+		"/D/workspace/python/print_bom_tree.py",
+		"/D/workspace/python/print_bom_tree_dot.py",
+		"/D/workspace/python/project_euler.py",
+		"/D/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/C++ Snippets/reference.md",
+		"/D/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/D/Sublime Text/Sublime Text 2.0.2 x64/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Python/Python27/lib/site-packages/pydot/__init__.py",
+		"/D/workspace/hackerrank/Project Euler/pe13_large_sum.py",
+		"/D/bugs/20823232/0520/transpose.py",
+		"/D/bugs/20823232/0520/j2d.py",
+		"/D/bugs/20752636/pab.py",
+		"/D/workspace/hackerrank/leetcode/ZigZa_Conversion.py",
+		"/D/workspace/hackerrank/leetcode/7_reverse_interger.py",
+		"/D/bugs/20616790/0724/read_records.py",
+		"/D/workspace/leetcode/6_zigzag_conversion.c",
+		"/D/bugs/20616790/0715/bom_output.log/read_records.py",
+		"/D/bugs/21165047/0603/fp_658_n",
+		"/D/workspace/python/project_euler.cpp",
+		"/C/Users/lyp_laptop/Desktop/新建文本文档.txt"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"Column(",
+			"scrapy.Field()",
+			"Column(",
+			"Double",
+			"scrapy.Field()",
+			"log",
+			"delveloper",
+			"= kv[",
+			"	",
+			"prepareWorkspace",
+			"proxy",
+			"N_REST",
+			"use_collections_start_time",
+			"days_of_res_avail_before_sysdate",
+			"MSO_FIRM_B4_PO",
+			"32bit",
+			"bitCount",
+			"inorderTraversal",
+			"inorderTraversal_recursive",
+			"preorderTraversal_recursive",
+			"preorderTraversal1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"item['property_fee_to'],",
+			"Column(String(128), default='')",
+			"item['project_id'],",
+			"NUMERIC",
+			"Column(String(128), default='')",
+			"developer",
+			"= value[0].extract() #kv[",
+			"    ",
+			"getSourceDir",
+			"bitCount",
+			"postorderTraversal",
+			"postorderTraversal_recursive",
+			"inorderTraversal_recursive",
+			"preorderTraversal_recursive"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 17,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/workspace/python/test2.py",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/workspace/python/check_tick.py",
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/workspace/python/project_euler.py",
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "leetcode/valid_Palindrome.cpp",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1221,
+								1221
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "leetcode/add_binary.cpp",
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "leetcode/longest_common_prefix.cpp",
+					"settings":
+					{
+						"buffer_size": 1630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "leetcode/count_and_say.cpp",
+					"settings":
+					{
+						"buffer_size": 1361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								659,
+								659
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "leetcode/implement_strstr.cpp",
+					"settings":
+					{
+						"buffer_size": 1272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "leetcode/reverse_string.cpp",
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								480,
+								480
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "leetcode/remove_duplicates_from_sorted_array2.cpp",
+					"settings":
+					{
+						"buffer_size": 2001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1546,
+								1546
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 53.0,
+						"translation.y": 749.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "leetcode/length_of_last_word.cpp",
+					"settings":
+					{
+						"buffer_size": 1177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "leetcode/remove_element.cpp",
+					"settings":
+					{
+						"buffer_size": 1652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "leetcode/reverse_vowels_of_a_string.cpp",
+					"settings":
+					{
+						"buffer_size": 875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "leetcode/remove_invalid_parentheses.cpp",
+					"settings":
+					{
+						"buffer_size": 780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "leetcode/valid_parentheses.cpp",
+					"settings":
+					{
+						"buffer_size": 1218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "leetcode/generate_parentheses.cpp",
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								970,
+								842
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "cpp.tpl.cpp",
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "leetcode/remove_duplicates_from_sorted_list2.cpp",
+					"settings":
+					{
+						"buffer_size": 2427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 161.0
+	},
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"demo",
+				"scrapy_first/scrapy_first/spiders/dmoz_spider.py"
+			],
+			[
+				"item",
+				"wuxi/wuxi/items.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}
