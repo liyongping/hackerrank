@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        if(nums.empty())
+            return 0;
+        int index = 0;
+        for (int i = 1; i < nums.size(); ++i)
+        {
+            if(nums[index] != nums[i])
+                nums[++index] = nums[i];
+        }
+        return index+1;
+    }
+};
+
+void printVectorInt(vector<int> & vs){
+    for (int i = 0; i < vs.size(); ++i)
+    {
+        cout<< vs[i] << " ";
+    }
+    cout<< endl;
+}
+
+int main(int argc, char const *argv[])
+{
+    Solution s;
+    cout<< s.removeDuplicates <<endl;
+    return 0;
+}
