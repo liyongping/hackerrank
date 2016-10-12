@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <algorithm>
+#include <unordered_map>
+#include <set>
 using namespace std;
 void printVectorInt(vector<int> & vs);
 
@@ -23,18 +25,17 @@ A solution set is:
  */
 class Solution {
 public:
-    //over time
-    vector<vector<int>> fourSum0(vector<int>& nums, int target) {
+    //240
+    vector<vector<int>> fourSum(vector<int>& nums, int target) {
         vector<vector<int>> results;
         const int size = nums.size();
         //sort(nums.begin(), nums.end());
-        
+
         unordered_multimap<int, pair<int, int>> cache_2sum;
         for (auto i = 0; i < size - 1; i++) {
             for (int j = i + 1; j < size; ++j)
             {
                 cache_2sum.insert(make_pair(nums[i] + nums[j], make_pair(i, j)));
-
             }
         }
 
@@ -49,13 +50,14 @@ public:
                 if (a != c && a != d && b != c && b != d) {
                     vector<int> vec = { nums[a], nums[b], nums[c], nums[d] };
                     std::sort(vec.begin(), vec.end());
-                    results.push_back(vec);
+                    if (std::find(results.begin(), results.end(), vec) == results.end())
+                        results.push_back(vec);
                 }
             }
         }
-        
-        sort(results.begin(), results.end());
-        results.erase(unique(results.begin(), results.end()), results.end());
+
+        //sort(results.begin(), results.end());
+        //results.erase(unique(results.begin(), results.end()), results.end());
 
         return results;
     }
@@ -141,7 +143,7 @@ public:
     }
     
     //9ms
-    vector<vector<int>> fourSum(vector<int>& nums, int target) 
+    vector<vector<int>> fourSum9(vector<int>& nums, int target) 
     {
         vector<vector<int>> lRetVal;
         vector<int> lQuad( 4, 0 ); // Pre-allocate the size of the result
@@ -155,11 +157,19 @@ public:
     }
     
     // Valid for K >= 2
-    void KSum(int k, vector<int>& nums, int l, int r, int target, vector<vector<int>>& retVal, vector<int>& cur, int ci ) 
+    void KSum(int k, 
+        vector<int>& nums, 
+        int l, 
+        int r, 
+        int target, 
+        vector<vector<int>>& retVal, 
+        vector<int>& cur, 
+        int ci ) 
     {
         int i, mn, mx;
         int km1 = k - 1;
 
+        // invaid input
         if ( r-l+1 < k ) return;
         
         while ( l < r )
@@ -219,9 +229,14 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    vector<int> data{1,0,-1,0,-2,2};
+    vector<int> data;
+    for (int i = -40; i < 40; ++i)
+    {
+        data.push_back(i);
+    }
     Solution s;
     vector<vector<int>> r = s.fourSum(data,0);
+    cout<< r.size() << endl;
     return 0;
 }
 
