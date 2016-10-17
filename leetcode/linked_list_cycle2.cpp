@@ -45,6 +45,7 @@ public:
     fast: 2y = x + k2*c + b
     ==>
         x + b = k*c
+        x = k*c - b
      */
     ListNode *detectCycle(ListNode *head) {
         ListNode * twostep = head;

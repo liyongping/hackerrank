@@ -45,6 +45,9 @@ public:
         return pre;
     }
 
+    /*
+    找到中间节点，断开，reverse后半截链表，再merge两个链表
+     */
     void reorderList(ListNode* head) {
         ListNode dummy(-1);
         dummy.next = head;
@@ -62,6 +65,7 @@ public:
 
         list2 = reverseList(list2);
 
+        //merge them
         // p1 points to l1 list's current node
         // p2 points to l2 list's current node
         ListNode* p1 = dummy.next, *p2 = list2;

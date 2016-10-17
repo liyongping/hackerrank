@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"cache_2sum"
+			],
+			[
+				"cur",
+				"curr_sum"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
 				"len",
 				"length	(reverse_string.cpp)"
 			],
@@ -42,10 +54,6 @@
 			[
 				"rev",
 				"reverseVowels"
-			],
-			[
-				"re",
-				"results"
 			],
 			[
 				"da",
@@ -124,10 +132,6 @@
 				"true"
 			],
 			[
-				"cur",
-				"curr"
-			],
-			[
 				"ran",
 				"random"
 			],
@@ -192,18 +196,58 @@
 	"buffers":
 	[
 		{
-			"file": "leetcode/remove_duplicates_from_sorted_list2.cpp",
+			"file": "leetcode/contain_duplicate_III.cpp",
 			"settings":
 			{
-				"buffer_size": 2427,
+				"buffer_size": 676,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "cpp/BoxIt.cpp",
+			"file": "leetcode/contain_duplicate_II.cpp",
 			"settings":
 			{
-				"buffer_size": 2011,
+				"buffer_size": 1377,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/copy_list_with_random_pointer.cpp",
+			"settings":
+			{
+				"buffer_size": 2428,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/delete_node_in_a_linked_list.cpp",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/palindrome_linked_list.cpp",
+			"settings":
+			{
+				"buffer_size": 2396,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/reverse_linked_list.cpp",
+			"settings":
+			{
+				"buffer_size": 1850,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "leetcode/reverse_linked_list2.cpp",
+			"settings":
+			{
+				"buffer_size": 1875,
 				"line_ending": "Windows"
 			}
 		}
@@ -256,6 +300,23 @@
 	},
 	"file_history":
 	[
+		"/D/workspace/hackerrank/cpp.tpl.cpp",
+		"/D/workspace/hackerrank/c++/OperatorOverLoading.cpp",
+		"/D/workspace/hackerrank/leetcode/3sum_closest.cpp",
+		"/D/workspace/hackerrank/leetcode/4sum.cpp",
+		"/D/workspace/hackerrank/leetcode/inorder_traversal_binary_trr.cpp",
+		"/D/workspace/hackerrank/leetcode/preorder_traversal_binary_trr.cpp",
+		"/D/workspace/hackerrank/leetcode/balanced_binary_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_paths.cpp",
+		"/D/workspace/hackerrank/leetcode/binary_tree_right_side_view.cpp",
+		"/D/workspace/hackerrank/leetcode/invert_binary_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/lowest_common_ancestor_of_a_binary_search_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/minimum_depth_of_binary_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/same_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/symmetric_tree.cpp",
+		"/D/workspace/hackerrank/leetcode/add_digits.cpp",
+		"/D/workspace/hackerrank/leetcode/contain_duplicate_II.cpp",
+		"/D/workspace/hackerrank/leetcode/contain_duplicate.cpp",
 		"/D/workspace/python/test2.py",
 		"/D/workspace/python/check_tick.py",
 		"/D/workspace/python/project_euler.py",
@@ -272,7 +333,8 @@
 		"/D/workspace/hackerrank/leetcode/remove_invalid_parentheses.cpp",
 		"/D/workspace/hackerrank/leetcode/valid_parentheses.cpp",
 		"/D/workspace/hackerrank/leetcode/generate_parentheses.cpp",
-		"/D/workspace/hackerrank/cpp.tpl.cpp",
+		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_list2.cpp",
+		"/D/workspace/cpp/test2define.c",
 		"/D/1.html",
 		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_arraycpp",
 		"/D/workspace/hackerrank/leetcode/find_duplicate_number.cpp",
@@ -299,8 +361,6 @@
 		"/D/workspace/hackerrank/leetcode/path_sum2.cpp",
 		"/D/bugs/20616790/0602/read_records.py",
 		"/D/workspace/hackerrank/leetcode/copy_list_with_random_pointer.cpp",
-		"/D/workspace/hackerrank/leetcode/same_tree.cpp",
-		"/D/workspace/hackerrank/leetcode/symmetric_tree.cpp",
 		"/D/workspace/hackerrank/leetcode/path_sum.cpp",
 		"/D/workspace/hackerrank/leetcode/binary_tree_level_order_traversal2.cpp",
 		"/D/workspace/hackerrank/leetcode/insection_sort_list.cpp",
@@ -308,17 +368,13 @@
 		"/D/workspace/hackerrank/leetcode/single_number3.cpp",
 		"/D/workspace/hackerrank/leetcode/single_number2.cpp",
 		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_list.cpp",
-		"/D/workspace/hackerrank/leetcode/remove_duplicates_from_sorted_list2.cpp",
-		"/D/workspace/hackerrank/leetcode/binary_tree_paths.cpp",
 		"/D/workspace/hackerrank/leetcode/binary_tree_level_order_traversal.cpp",
 		"/D/workspace/hackerrank/leetcode/binary_tree_patchs.cpp",
-		"/D/workspace/hackerrank/leetcode/inorder_traversal_binary_trr.cpp",
 		"/D/workspace/hackerrank/leetcode/remove_nth_node_from_end_of_list.cpp",
 		"/D/workspace/hackerrank/leetcode/swap_nodes_in_pairs.cpp",
 		"/D/workspace/hackerrank/leetcode/excel_sheet_columns_title_10to26.cpp",
 		"/D/workspace/hackerrank/leetcode/linked_list_cycle.cpp",
 		"/D/workspace/hackerrank/leetcode/intersection_of_two_linked_lists.cpp",
-		"/D/workspace/hackerrank/leetcode/preorder_traversal_binary_trr.cpp",
 		"/E/tmp/sdk-python-23282520/taobao-sdk-PYTHON-auto_1447355351010-20151210/test.py",
 		"/D/workspace/cpp/test_exception.cpp",
 		"/D/workspace/hackerrank/leetcode/palindrome_linked_list.cpp",
@@ -422,23 +478,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "leetcode/remove_duplicates_from_sorted_list2.cpp",
+					"file": "leetcode/contain_duplicate_III.cpp",
 					"settings":
 					{
-						"buffer_size": 2427,
+						"buffer_size": 676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1208,
-								1208
+								254,
+								673
 							]
 						],
 						"settings":
@@ -491,32 +547,182 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 648.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "cpp/BoxIt.cpp",
+					"file": "leetcode/contain_duplicate_II.cpp",
 					"settings":
 					{
-						"buffer_size": 2011,
+						"buffer_size": 1377,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								902,
-								902
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "leetcode/copy_list_with_random_pointer.cpp",
+					"settings":
+					{
+						"buffer_size": 2428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "leetcode/delete_node_in_a_linked_list.cpp",
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
 							]
 						],
 						"settings":
@@ -570,10 +776,241 @@
 								"bh_single_quote_close"
 							],
 							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1368.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "leetcode/palindrome_linked_list.cpp",
+					"settings":
+					{
+						"buffer_size": 2396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1153,
+								1164
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "leetcode/reverse_linked_list.cpp",
+					"settings":
+					{
+						"buffer_size": 1850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "leetcode/reverse_linked_list2.cpp",
+					"settings":
+					{
+						"buffer_size": 1875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								844
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++ Starting Kit/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,6 +1063,62 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"reverse",
+				"leetcode/reverse_linked_list2.cpp"
+			],
+			[
+				"rever",
+				"leetcode/reverse_linked_list.cpp"
+			],
+			[
+				"parlink",
+				"leetcode/palindrome_linked_list.cpp"
+			],
+			[
+				"copy",
+				"leetcode/copy_list_with_random_pointer.cpp"
+			],
+			[
+				"cont",
+				"leetcode/contain_duplicate.cpp"
+			],
+			[
+				"sym",
+				"leetcode/symmetric_tree.cpp"
+			],
+			[
+				"same",
+				"leetcode/same_tree.cpp"
+			],
+			[
+				"depth",
+				"leetcode/minimum_depth_of_binary_tree.cpp"
+			],
+			[
+				"lower",
+				"leetcode/lowest_common_ancestor_of_a_binary_search_tree.cpp"
+			],
+			[
+				"invert",
+				"leetcode/invert_binary_tree.cpp"
+			],
+			[
+				"right",
+				"leetcode/binary_tree_right_side_view.cpp"
+			],
+			[
+				"paths",
+				"leetcode/binary_tree_paths.cpp"
+			],
+			[
+				"bal",
+				"leetcode/balanced_binary_tree.cpp"
+			],
+			[
+				"order",
+				"leetcode/preorder_traversal_binary_trr.cpp"
+			],
 			[
 				"demo",
 				"scrapy_first/scrapy_first/spiders/dmoz_spider.py"
