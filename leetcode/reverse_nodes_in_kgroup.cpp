@@ -93,6 +93,7 @@ public:
         return new_head -> next;
     }
 private:
+    // try to find if there are k nodes, and move node pointer to end
     bool hasKNodes(ListNode* node, int k) {
         int cnt = 0;
         while (node) {
