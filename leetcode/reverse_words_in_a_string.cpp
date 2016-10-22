@@ -22,14 +22,23 @@ Clarification:
 class Solution {
 public:
     void reverseWords(string &s) {
-        
-    }
-
-    /*
-    
-     */
-    void reverseWords2(string &s) {
-        //  先翻转整个string
-        //  再从前往后，翻转没个单词
+        int n = s.size();
+        string rs = "";
+        int j = n;
+        // backwards
+        for (int i = n-1; i >= 0; i--)
+        {
+            if (s[i] == ' ') {
+                j = i;
+            }
+            // i=0 must be put befor s[i - 1] == ' ' to prevent s[i-1] error
+            else if(i == 0 || s[i - 1] == ' '){
+                if (rs.size() != 0) {
+                    rs += " ";
+                }
+                rs += s.substr(i, j-i);
+            }
+        }
+        s = rs;
     }
 };
