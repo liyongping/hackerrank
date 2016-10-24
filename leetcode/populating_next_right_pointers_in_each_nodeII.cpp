@@ -1,37 +1,28 @@
 /*
- Given a binary tree
+Follow up for problem "Populating Next Right Pointers in Each Node".
 
-    struct TreeLinkNode {
-      TreeLinkNode *left;
-      TreeLinkNode *right;
-      TreeLinkNode *next;
-    }
-
-Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
-
-Initially, all next pointers are set to NULL.
+What if the given tree could be any binary tree? Would your previous solution still work?
 
 Note:
 
     You may only use constant extra space.
-    You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).
 
 For example,
-Given the following perfect binary tree,
+Given the following binary tree,
 
          1
        /  \
       2    3
-     / \  / \
-    4  5  6  7
+     / \    \
+    4   5    7
 
 After calling your function, the tree should look like:
 
          1 -> NULL
        /  \
       2 -> 3 -> NULL
-     / \  / \
-    4->5->6->7 -> NULL
+     / \    \
+    4-> 5 -> 7 -> NULL
 
  */
 
@@ -69,4 +60,25 @@ public:
         traversal(root->right, level+1, map);
         traversal(root->left, level+1, map);
     }
-};
+
+    // loop 
+    void connect2(TreeLinkNode *root) {
+        while (root) {
+            TreeLinkNode * next = nullptr; // the first node of next level
+            TreeLinkNode * prev = nullptr; // previous node on the same level
+            for (; root; root = root->next) {
+                if (!next) next = root->left ? root->left : root->right;
+                if (root->left) {
+                    if (prev) 
+                        prev->next = root->left;
+                    prev = root->left;
+                }
+                if (root->right) {
+                    if (prev) prev->next = root->right;
+                    prev = root->right;
+                }
+            }
+            root = next; // turn to next level
+        }
+    }
+};  
