@@ -67,7 +67,7 @@ int main(int argc, char const *argv[])
     proot->right->right = new TreeNode(7);
 
     Solution s;
-    cout<<s.maxDepth(proot)<<endl;
+    cout<<s.lowestCommonAncestor(proot, proot->left, proot->right->left)<<endl;
 
     /* code */
     return 0;
