@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "leetcode"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ppc": "c",
+			"*.opp": "c",
+			"vector": "cpp",
+			"map": "cpp",
+			"utility": "cpp",
+			"iostream": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}
